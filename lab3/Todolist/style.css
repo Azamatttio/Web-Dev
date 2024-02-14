@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .container1 {
+    background-color: black;
+    height: 60px;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+  }
+  #todolist1 {
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 10px;
+  
+  }
+  .container2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  #input {
+      border-radius: 5px;
+      font-size: 1.1em;
+      height: 30px;
+      width:700px;
+      border: 1px solid #333;
+  }
+  #button {
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: none;
+    background-color: rgb(82, 82, 242);
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+  }
+  #list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #list li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #list li.completed {
+    text-decoration: line-through;
+  }
