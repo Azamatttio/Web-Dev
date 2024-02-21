@@ -1,0 +1,30 @@
+.title_name {
+    display:inline-flex;
+    justify-content: left;
+  }
+  .img-container img{
+    height: auto; 
+    width: auto; 
+    margin-left: 60px;
+    max-width: 100px; 
+    max-height: 90px;
+    display: inline;
+    cursor: pointer;
+  }
+  .product-rating{
+    font-style: bold;
+  }
+  button{
+    margin:20px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .btm{
+    display: inline-block;
+  }
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
